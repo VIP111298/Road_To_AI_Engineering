@@ -1,14 +1,17 @@
+# Environment
+.env
+**/.env
+
+# Virtual Environment
+.venv/
+**/.venv/
+
 # Python
 __pycache__/
 *.pyc
 
-# Virtual Environments
-.venv/
-**/.venv/
-
-# Environment Variables
-.env
-**/.env
-
-# VS Code
-.vscode/
+# Resume files
+**/resumes/
+*.pdf
+*.docx
+desktop.ini
