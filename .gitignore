@@ -1,25 +1,28 @@
-# Environment
-# Environment
 .env
 **/.env
 
-# Virtual Environment
+
 .venv/
 **/.venv/
 
-# Python
+
 __pycache__/
+**/__pycache__/
 *.pyc
 
-# VS Code
+
 .vscode/
 
-# macOS
-.DS_Store
 
-# Resume files
+.DS_Store
+Desktop.ini
+desktop.ini
+Thumbs.db
+
+
 **/resumes/
 *.pdf
 *.docx
 
-desktop.ini
+
+!Vipul_Tiwari_Resume.pdf
