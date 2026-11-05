@@ -24,7 +24,7 @@ documents = [
     "The company offers wellness programs and gym memberships.",
     "Employees have access to mental health support services.",
     "The company provides parental leave for new parents.",
-]
+]                                                               
 
 embeddings = model.encode(documents)
 def cosine_similarity(a,b): #comparison
@@ -55,7 +55,7 @@ def ask_llm(question,context):
     answer = response.choices[0].message.content
     return answer
 
-query="How many paid leave days do employees get?"
+query="How many paid vacation days do employees get?"
 query_embedding = model.encode(query)
 score, context = retrieve(query_embedding)
 answer = ask_llm(query, context)

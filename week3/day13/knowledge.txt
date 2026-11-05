@@ -1,0 +1,12 @@
+documents = [
+    "Employees receive 24 days of paid leave per year.",
+    "The company offers a comprehensive health insurance plan.",
+    "Employees can work remotely up to two days a week.",
+    "The company provides a retirement savings plan with matching contributions.",
+    "Employees are eligible for performance-based bonuses.",
+    "The company has a flexible work schedule policy.",
+    "Employees can participate in professional development programs.",
+    "The company offers wellness programs and gym memberships.",
+    "Employees have access to mental health support services.",
+    "The company provides parental leave for new parents.",
+]
